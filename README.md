@@ -5,7 +5,7 @@
   
 ## Description
 
-This was my first project created using [express.js]((https://expressjs.com/en/guide/routing.html)). It was created using the **GET**, **POST**, and **DELETE** methods from the express framework. It's a simple application for creating, saving, and deleting notes. This is very handy for anyone with a busy schedule, including myself. Each note is given a unique identifier and is saved in the server as a json object. This application was created using a mixture of frontend and backend.
+This was my first project created using [express.js](https://expressjs.com/en/guide/routing.html). It was created using the **GET**, **POST**, and **DELETE** methods from the express framework. It's a simple application for creating, saving, and deleting notes. This is very handy for anyone with a busy schedule, including myself. Each note is given a unique identifier and is saved in the server as a json object. This application was created using a mixture of frontend and backend.
 
 My main goal of this project was to further my experience in backend development as a full-stack developer whilst also creating a cool and useful note-taking application.
   
