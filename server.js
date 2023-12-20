@@ -1,7 +1,7 @@
 const express = require("express");
 const fs = require("fs");
 const path = require("path");
-const uuid = require("./helpers/uuid");
+const uuid = require("./helpers/uuid"); //uuid is a *Universally Unique Identifier* which is included in the NPM package
 
 const app = express();
 
@@ -43,7 +43,7 @@ app.post("/api/notes", (req, res) => {
     const newNote = {
       title,
       text,
-      id: uuid(),
+      id: uuid(), //calling the uuid function from helpers/uuid.js to retrieve a randomly created id number
     };
 
     // Read the contents of db.json and send as JSON response
