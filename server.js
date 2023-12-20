@@ -7,7 +7,7 @@ const uuid = require('./helpers/uuid');
 
 const app = express();
 
-const PORT = 3001; //identifies PORT as 3001
+const PORT = process.env.PORT || 3001; //identifies PORT as 3001 and enables for HEROKU
 
 // Middleware to serve static files from the 'public' directory
 app.use(express.static('public'));
