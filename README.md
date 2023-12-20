@@ -32,6 +32,8 @@ Using this application is quite simple. From the homepage click the button **'Ge
 
 ## Contributions
 
+Credits and gratitude to the following docs for the knowledge that helped complete this project:
+
 * [Express JS Documentation](https://expressjs.com/en/guide/routing.html)
 
 * [Express JS 2022 Course by Anson the Developer](https://www.youtube.com/@ansonthedev)
