@@ -85,6 +85,7 @@ app.get('/notes', (request, response) => {
   app.delete('/api/notes/:id', (req, res) => {
     const noteId = req.params.id;
   
+    // data is the content from the db.json file
     fs.readFile('./db/db.json', 'utf8', (err, data) => {
       if (err) {
         console.error(err);
