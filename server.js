@@ -107,6 +107,8 @@ app.get('/notes', (request, response) => {
 
         parsedNotes.splice(noteIndex, 1);
 
+        // splice is modifying '1' element from the array at 'noteIndex' - the index of the note being removed.
+
   
         // Write the updated notes back to db.json
         fs.writeFile('./db/db.json', JSON.stringify(parsedNotes, null, 4), (writeErr) => {
