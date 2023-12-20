@@ -38,6 +38,8 @@ Using this application is quite simple. From the homepage click the button **'Ge
 
 *  [ReadME Generator](https://github.com/Goobergreve09/read-me-generator)
 
+* [Stack Overflow Forums for DELETE method with Express.js](https://stackoverflow.com/questions/65015000/how-do-i-use-express-js-app-delete-to-remove-a-specific-object-from-an-array)
+
 
 
 
