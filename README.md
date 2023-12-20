@@ -42,6 +42,8 @@ Credits and gratitude to the following docs for the knowledge that helped comple
 
 * [Stack Overflow Forums for DELETE method with Express.js](https://stackoverflow.com/questions/65015000/how-do-i-use-express-js-app-delete-to-remove-a-specific-object-from-an-array)
 
+* [Splice() method on MDN web docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)
+
 
 
 

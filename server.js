@@ -90,15 +90,22 @@ app.get('/notes', (request, response) => {
         console.error(err);
         return res.status(500).json('Error reading notes from the server');
       }
-  
+
+  // data is json that is being parsed and transformed into a javascript object
       let parsedNotes = JSON.parse(data);
   
       // Find index of the note with the given ID
+      //note index is the index of the note in the parsed notes array
       const noteIndex = parsedNotes.findIndex((note) => note.id === noteId);
   
       if (noteIndex !== -1) {
+
         // Remove the note from the array using splice
+        // 1 indicates how many notes to be deleted
+        // -1 indicates the note is not in the array
+
         parsedNotes.splice(noteIndex, 1);
+
   
         // Write the updated notes back to db.json
         fs.writeFile('./db/db.json', JSON.stringify(parsedNotes, null, 4), (writeErr) => {
