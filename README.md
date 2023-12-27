@@ -30,6 +30,10 @@ Using this application is quite simple. From the homepage click the button **'Ge
 
 ![note3](https://github.com/Goobergreve09/read-me-generator/assets/143923830/2795dfdb-a5f2-4ffc-bae1-ddcde06bc936)
 
+Click 'Deployment Link' below to view app via Heroku:
+
+[Deployment Link](https://notetakerwithexpress-2bb39f89669b.herokuapp.com/)
+
 ## Contributions
 
 Credits and gratitude to the following docs for the knowledge that helped complete this project:
